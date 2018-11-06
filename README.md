@@ -63,6 +63,8 @@ curl -X GET 127.0.0.1:8080/i
 - Go to `http://127.0.0.1:8081/sub?topic=enriched&channel=enriched_channel` to see the enriched
 events
 
+![setup](https://github.com/snowplow-incubator/snowplow-on-your-laptop-workshop/raw/master/setup.gif)
+
 ### Tear down
 
 ```bash
