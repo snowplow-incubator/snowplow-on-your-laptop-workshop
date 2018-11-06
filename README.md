@@ -16,3 +16,19 @@ Make sure it worked by running `docker --version` in a terminal.
 For all platforms: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 Make sure it works by running `git --version` in a terminal.
+
+## First time setup
+
+Those commands are to be done once, the first time you set this up.
+
+### Clone the Snowplow Docker repository
+
+```bash
+git clone https://github.com/snowplow/snowplow-docker.git
+```
+
+### Initialize your Docker installation
+
+```bash
+docker swarm init
+```
